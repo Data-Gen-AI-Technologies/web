@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 36">
+  <defs>
+    <linearGradient id="kg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <text x="4" y="27" font-family="system-ui,-apple-system,sans-serif" font-size="26" font-weight="800" fill="#1e293b">Kode<tspan fill="url(#kg)">6</tspan></text>
+</svg>

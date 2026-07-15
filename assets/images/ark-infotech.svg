@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80">
+  <defs>
+    <radialGradient id="sp" cx="40%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#e84040"/>
+      <stop offset="80%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#8b1a1a"/>
+    </radialGradient>
+    <radialGradient id="core" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Gear/molecular logo mark -->
+  <g transform="translate(35, 40)">
+    <!-- Filled center circle -->
+    <circle cx="0" cy="0" r="12" fill="url(#core)"/>
+
+    <!-- 8 spheres around the edge -->
+    <circle cx="0" cy="-19" r="7" fill="url(#sp)"/>
+    <circle cx="13.4" cy="-13.4" r="7.5" fill="url(#sp)"/>
+    <circle cx="19" cy="0" r="7" fill="url(#sp)"/>
+    <circle cx="13.4" cy="13.4" r="7.5" fill="url(#sp)"/>
+    <circle cx="0" cy="19" r="7" fill="url(#sp)"/>
+    <circle cx="-13.4" cy="13.4" r="7.5" fill="url(#sp)"/>
+    <circle cx="-19" cy="0" r="7" fill="url(#sp)"/>
+    <circle cx="-13.4" cy="-13.4" r="7.5" fill="url(#sp)"/>
+  </g>
+
+  <!-- ARK text -->
+  <text x="72" y="38" font-family="'Georgia','Times New Roman',serif" font-size="36" font-weight="700" fill="#1a1a2e" letter-spacing="-0.5px">ARK</text>
+
+  <!-- TM superscript -->
+  <text x="149" y="20" font-family="system-ui,-apple-system,sans-serif" font-size="8" font-weight="600" fill="#1a1a2e">TM</text>
+
+  <!-- Infotech Spectrum text -->
+  <text x="72" y="56" font-family="'Georgia','Times New Roman',serif" font-size="16" font-weight="400" fill="#7f1d1d" letter-spacing="0.5px">Infotech Spectrum</text>
+</svg>
